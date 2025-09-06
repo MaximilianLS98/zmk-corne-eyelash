@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  MAX:
   - {t: '$$mdi:keyboard-esc$$', h: Meh+LGUI}
   - Q
   - W
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:volume-high$$
   - Y
   - U
   - I
@@ -20,23 +20,23 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-off$$
+  - $$mdi:skip-next$$
   - H
   - J
   - K
   - L
   - P
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
   - V
   - B
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
+  - VOL DOWN
   - N
   - M
   - {t: ',', s: <}
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - '&td_space_layers'
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   NUMNAV:
   - $$mdi:keyboard-esc$$
   - {t: '=', s: +}
