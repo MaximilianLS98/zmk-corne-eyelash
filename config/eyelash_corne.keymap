@@ -107,12 +107,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "MAX";
             bindings = <
-&mt LS(LC(LA(LGUI))) ESC &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp SEMI  &bspc_del
-&kp LCTRL                &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp P     &kp SQT
-&kp LSHIFT               &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mo 3
-                                &lt 3 TAB   &kp LGUI  &lt 2 SPACE                                      &td_space_layers  &mt LSHIFT RET  &kp RALT
+&mt LS(LC(LA(LGUI))) ESC &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp C_VOL_UP           &kp Y        &kp U  &kp I      &kp O    &kp SEMI  &bspc_del
+&kp LCTRL                &kp A  &kp S  &kp D     &kp F  &kp G                    &kp C_PREV &kp C_MUTE  &kp C_NEXT &kp H        &kp J  &kp K      &kp L    &kp P     &kp SQT
+&mt LSHIFT LPAR          &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp C_VOL_DOWN         &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mo 3
+                                &lt 3 TAB   &kp LGUI  &lt 2 SPACE                                      &td_space_layers  &mt LSHIFT RET  &mt RALT RPAR
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
