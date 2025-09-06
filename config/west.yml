@@ -2,9 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-     # Adding additional pixelart for the nice_view shield
-    - name: PiXeL16                         #new entry
-      url-base: https://github.com/PiXeL16 #new entry
+    - name: gpeye                         #new entry
+      url-base: https://github.com/GPeye  #new entry
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -17,8 +16,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-landscape-slideshow          #new entry
-      remote: PiXeL16                     #new entry
+    - name: hammerbeam-slideshow          #new entry
+      remote: gpeye                       #new entry
       revision: main                      #new entry
   self:
     path: config
