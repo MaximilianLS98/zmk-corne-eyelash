@@ -151,6 +151,12 @@
             bindings = <&kp SEMI>;
         };
 
+        combo_screenshot_mac: combo_screenshot_mac {
+            timeout-ms = <50>;
+            key-positions = <30 31>;   // Z, X
+            bindings = <&mt LS(LGUI(2))>;
+        };
+
     };
 
     keymap {
