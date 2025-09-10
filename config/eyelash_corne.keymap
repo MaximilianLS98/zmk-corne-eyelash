@@ -105,13 +105,13 @@
         // j and k for left bracker and u and i for right brace { and }
         combo_brace_l: combo_brace_l {
             timeout-ms = <50>;
-            key-positions = <22 23>;   // J, K
+            key-positions = <23 24>;   // J, K
             bindings = <&kp LBRC>;
         };
 
         combo_brace_r: combo_brace_r {
             timeout-ms = <50>;
-            key-positions = <23 24>;   // K, L
+            key-positions = <24 25>;   // K, L
             bindings = <&kp RBRC>;
         };
 
