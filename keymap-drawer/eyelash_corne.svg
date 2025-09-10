@@ -608,6 +608,12 @@ rect.held, rect.combo.held {
 <text x="168" y="98" class="combo hold">;</text>
 <text x="168" y="76" class="combo shifted">:</text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="143" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 60%">&amp;mt</tspan><tspan x="168" dy="1.2em" style="font-size: 60%">LS(LGUI(2…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMNAV">
@@ -915,6 +921,12 @@ rect.held, rect.combo.held {
 <text x="168" y="98" class="combo hold">;</text>
 <text x="168" y="76" class="combo shifted">:</text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="143" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 60%">&amp;mt</tspan><tspan x="168" dy="1.2em" style="font-size: 60%">LS(LGUI(2…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1218,6 +1230,12 @@ rect.held, rect.combo.held {
 <text x="168" y="98" class="combo hold">;</text>
 <text x="168" y="76" class="combo shifted">:</text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="143" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 60%">&amp;mt</tspan><tspan x="168" dy="1.2em" style="font-size: 60%">LS(LGUI(2…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Fn">
@@ -1519,6 +1537,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="98" class="combo hold">;</text>
 <text x="168" y="76" class="combo shifted">:</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="143" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 60%">&amp;mt</tspan><tspan x="168" dy="1.2em" style="font-size: 60%">LS(LGUI(2…</tspan>
+</text>
 </g>
 </g>
 </g>
