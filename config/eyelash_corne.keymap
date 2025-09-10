@@ -139,6 +139,18 @@
             bindings = <&kp RPAR>;
         };
 
+        combo_colon: combo_colon {
+            timeout-ms = <50>;
+            key-positions = <16 17>;   // D, F
+            bindings = <&kp COLON>;
+        };
+
+        combo_semicolon: combo_semicolon {
+            timeout-ms = <50>;
+            key-positions = <15 16>;   // S, D
+            bindings = <&kp SEMI>;
+        };
+
     };
 
     keymap {
